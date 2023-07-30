@@ -307,6 +307,7 @@
         <script type="text/javascript">
           $(document).ready(function () {
             $('.responsive').slick({
+              //This controls the setting for the carousel. SlidesToShow and SlidesToScroll control how many slides and images are by default given a standard display size. It won't exceed this regardless how big the screen.
               dots: true,
               infinite: false,
               speed: 300,
@@ -336,9 +337,7 @@
                     slidesToScroll: 1
                   }
                 }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
+              
               ]
             });
           });
